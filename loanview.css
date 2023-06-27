@@ -1,0 +1,203 @@
+
+html {
+    font-size: 50.5%;
+
+
+}
+
+body {
+
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.section {
+    overflow-wrap: normal;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+    z-index: 1;
+    width: 90%;
+
+    padding: .2rem 5%;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+
+    justify-content: center;
+
+}
+
+.container_login {
+ 
+    /* Fallback color */
+    background-color:  rgba(38, 104, 146, 0.13);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    /* Black w/opacity/see-through */
+    margin-top: 20px;
+    height: 400px;
+ 
+    border-radius: 12px;
+    z-index: 1;
+    font-weight: bold;
+    width: 200vh;
+
+    padding: 4.8rem 5%;
+    gap: 5px;
+
+
+
+
+
+
+}
+
+.container_login div h1 {
+    margin-left: 30%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: rgba(26, 24, 24, 0.847);
+}
+
+.container_login div h3 {
+    color: rgba(26, 24, 24, 0.847);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container_login div h2 {
+    color: rgba(26, 24, 24, 0.847);
+}
+
+.main_content {
+    margin-top: 2.5rem;
+
+
+    height: 60vh;
+
+
+}
+
+.f {
+    margin-left: 2px;
+}
+
+
+.selection {
+    width: 20rem;
+    height: 2.5rem;
+}
+
+.f input {
+    height: 20px;
+    width: 24rem;
+}
+
+
+
+
+.bg_image {
+
+    background-image: url(loginandsignup.jpg);
+    
+
+
+
+    height: 100vh;
+
+    z-index: -1;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+/* Styles for tablets and desktops */
+}
+
+@media (min-width: 992px) {
+/* Styles for larger desktops */
+}
+.field{
+    height:400px ;
+    width: 95%;
+}
+
+table {
+    table-layout: fixed;
+    width: 90%;
+    border-collapse: collapse;
+    
+  }
+  
+  /* thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, */
+  td {
+    padding: 10px;
+  }
+  .button {
+    /* display: inline-block; */
+    width: 80px;
+    height: 32px;
+     padding: 4px 20px;
+    /* font-size: 10px; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    background-color: rgb(245, 242, 235);
+    color: blue;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 0 1px 4px rgba(21, 58, 98, 0.3);
+
+    /* transition: background-color 0.3s; */
+  }
+  
+  .button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(79, 79, 208);
+
+  } 
+ .b {
+    border: none;
+    width: 80px;
+    background-color: rgb(245, 242, 235);
+    border-radius: 23px;
+    color: blue;
+    box-shadow: 0 1px 4px rgba(21, 58, 98, 0.3);
+
+}
+
+.b:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(79, 79, 208);
+
+
+}
+
+
+
+
+

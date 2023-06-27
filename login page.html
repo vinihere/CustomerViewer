@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="institute-1.1s-200px.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Loan Details</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+    </style>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+    <script>
+        $(function () {
+            $(".firstdiv").load("navbar.html");
+        });
+
+        $(document).ready(function () {
+            $("form").submit(function (event) {
+                event.preventDefault(); 
+
+               
+                var username = $("#u1").val();
+                var email = $("#email").val();
+                var phone = $("#phone").val();
+                var password = $("#password").val();
+
+                if (username === "") {
+                    alert("Please enter your username.");
+                    return;
+                }
+
+                if (email === "") {
+                    alert("Please enter your email address.");
+                    return;
+                }
+
+                // You can add more validation rules for email and phone number if needed
+
+                if (password === "") {
+                    alert("Please enter your password.");
+                    return;
+                }
+
+                // If all validations pass, redirect to another page
+                window.location.href = "loanviewer.html";
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="firstdiv"></div>
+    <div class="bg_image"></div>
+    <div class="section">
+        <div class="container_login">
+            <div>
+                <h1>LogIn</h1>
+                <br>
+                <p>
+                    <h3>Please Fill the Correct Details</h3>
+                </p>
+            </div>
+            <div class="main_content">
+                <form>
+                    <div class="f">
+                        <h2>Customer Name</h2>
+                        <input type="text" id="u1" placeholder="enter your username"><br><br>
+                        <h2>Email ID</h2>
+                        <input type="text" id="email" placeholder="enter your email id">
+                        <br><br>
+                        <h2>Phone No</h2>
+                        <input type="text" id="phone" placeholder="enter your number">
+                        <br><br>
+                        <h2>Password</h2>
+                        <input type="password" id="password" placeholder="enter your password">
+                        <br><br>
+                        <input type="submit" value="Login" class="b">
+                        <br><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

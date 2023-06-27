@@ -1,0 +1,26 @@
+.chat-container {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #f34646;
+    padding: 10px;
+}
+
+#chat-log {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #803d3d;
+}
+
+.input-container {
+    margin-top: 10px;
+}
+
+#user-input {
+    width: 70%;
+    padding: 5px;
+}
+
+#send-button {
+    width: 25%;
+    padding: 5px;
+}

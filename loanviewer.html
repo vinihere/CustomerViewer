@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="institute-1.1s-200px.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>LoanViewer</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="loanview.css" /> 
+</head>
+
+<body>
+    <div class="firstdiv"></div>
+    <div class="bg_image"></div>
+    <div class="section">
+
+
+
+        <div class="container_login">
+
+            <fieldset class="field">
+                <form action="SOA.html"></form>
+                <legend>
+                    <h1>LoanViewer</h1></legend>
+
+                    <table>
+                        <tr>
+                            <td><label><h2>Loan Amount</h2></label></td><td><input type="text" ></td>
+                        </tr>
+                        <tr>
+                            <td><label><h2>Balance Amount</h2></label></td><td><input type="text" ></td>
+                        </tr>
+                        <tr>
+                            <td><label><h2>Next EMI</h2></label></td><td><input type="date" ></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><label></label></td><td><input type="text" ></td>
+                        </tr> -->
+                       
+                    </table>
+                </form>
+                
+                        <button class="b" id="reject">PayEMI</button>
+                        <button class="b"><a href="SOA.html">SOA</a></button>
+                  
+
+                      
+                        
+                        <table border="1">
+                            <thead>
+                              <tr>
+                                <th><h2>Remaining EMI</h2></th>
+                                <th><h2>Total EMI</h2></th>
+                                
+                              </tr>
+                              <tr><td>1</td><td>2000</td>
+                              <tr><td>2</td><td>1000</td>
+                             
+                            </thead>     
+                            </table>
+                        
+                        </fieldset>
+        </div>
+
+    </div>
+    <script>
+        $(function () {
+            $(".firstdiv").load("navbar2.html");
+        });
+    </script>
+</body>
+
+</html>
